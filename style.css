@@ -8,9 +8,9 @@ h1{
 .orange{
     color: orange;
 }
-section{
+/* section{
     display: flex;
-}
+} */
 .box2{
 width: 50%;
 padding-left: 5%;
@@ -28,12 +28,36 @@ padding-left: 5%;
     font-weight: 700;
 }
 .top{
+    display: flex;
     background-image:url("top-banner.png");
     background-repeat: no-repeat;
 }
 .med{
+    display: flex;
     margin-top: 100px;
     background-image:url("dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.box3{
+    border-left: 10px solid ;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+    width: 50%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 10px 10px gray;
+margin-left: 5%;
+
+margin-right: 5%;    
+}
+.bot{
+    
+    margin-top: 100px;
+    background-image:url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.c{
+    display: flex
 }
